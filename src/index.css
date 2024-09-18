@@ -1,0 +1,148 @@
+body {
+    background: #219C90;
+}
+
+#formDiv {
+    width: 550px;
+    height: auto;
+    margin: 70px auto;
+    padding: 50px;
+    background: #ffffffdb;
+    border-radius: 15px;
+}
+
+#formDiv h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+#formDiv form {
+    text-align: center;
+}
+
+#todoText {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+#todoText:focus-visible {
+    outline: none;
+}
+
+#todoAdd {
+    width: 12%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    background-color: #8b5ec6;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#formDiv ul {
+    list-style: none;
+    padding: 0;
+}
+
+#formDiv li {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 4px 0px 10px;
+    font-size: 19px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 93%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#todoUl form {
+    text-align: left;
+}
+
+#todoUl input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 65%;
+    font-size: 16px;
+}
+
+#todoUl input:focus-visible{
+    outline: none;
+}
+
+.main_list{
+    position: relative;
+}
+
+.saveBtn {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #28a745;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    padding: 0 10px;
+}
+
+.editBtn {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ebd316;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    padding: 0 10px;
+}
+
+.closeBtn{
+    width: 40px;
+    height: 38.5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: #ebd316;
+}
+
+.timezone{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #555;
+}
